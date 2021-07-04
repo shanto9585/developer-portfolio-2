@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.cover{
+    background-image: url(images/Cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.yellow{
+    color: rgb(255,202,5);
+}
+
+.text{
+    color: white;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.menu  li{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+    display: inline;
+    
+}
