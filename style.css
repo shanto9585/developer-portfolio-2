@@ -12,6 +12,7 @@
     background-size: cover;
     height: 800px;
     width: 100%;
+    box-shadow: -40px 30px 50px rgb(26, 26, 41);
 }
 
 .yellow{
@@ -66,11 +67,15 @@
 ul li{
     padding-top: 50px;
 }
-
 .projects{
-    margin-top: 80px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.projects-cart{
     display: flex;
     text-align: center;
+    padding: 0 200px 200px;
 }
 .projects-1  {
     box-shadow: 10px 10px 40px rgb(26, 26, 41);
@@ -82,15 +87,24 @@ ul li{
 .projects-1 p{
     text-align: justify;
 }
+.Text-about-me h1{
+    font-size: 50px;
+
+}
+.projects h1{
+    font-size: 50px;
+
+}
 
 .about-me{
+    margin-top: 200px;
     display: flex;
     width: 100%;
     background-image: url(images/Cover2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    box-shadow: -40px 30px 50px rgb(26, 26, 41);
+   
 
 }
 .Text-about-me{
@@ -112,7 +126,7 @@ ul li{
 }
 .Text-about-me hr{
 
-    border: 2px solid rgb(255,202,5);
+    border: 5px solid rgb(255,202,5);
     width: 120px;
     margin-top: 5px;
     margin-bottom: 5px;
