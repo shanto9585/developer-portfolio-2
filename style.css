@@ -5,17 +5,13 @@
 }
 
 
-h1{
-    font-size: 50px;
-}
-h2{
-    font-size: 40px;
-}
+
 .cover{
     background-image: url(images/Cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    width: 100%;
 }
 
 .yellow{
@@ -23,22 +19,103 @@ h2{
 }
 
 .text{
+    width: 50%;
     color: white;
     margin-top: 200px;
     margin-left: 200px;
 }
+
+.text h1{
+    font-size: 50px;
+}
+.text h2{
+    font-size: 40px;
+}
+.text hr{
+
+    border: 2px solid rgb(255,202,5);
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .menu{
+    padding-top: 20px;
     display: flex;
-    margin-top: 20px;
     margin-left: 20px;
 }
-.menu  li{
+.menu  a{
+    text-decoration: none;
+    color: white;
 
+}
+.menu  li{
     margin-top: 100px;
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding-right: 10px;
+    padding-right: 15px;
     display: inline;
+}
+.link-button{
+   
+    text-decoration: none;
+    background-color:rgb(255,202,5) ;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+ul li{
+    padding-top: 50px;
+}
+
+.projects{
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+}
+.projects-1  {
+    box-shadow: 10px 10px 40px rgb(26, 26, 41);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+.projects-1 p{
+    text-align: justify;
+}
+
+.about-me{
+    display: flex;
+    width: 100%;
+    background-image: url(images/Cover2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    box-shadow: 40px 0px 40px rgb(26, 26, 41);
+    margin-top: 80px;
+}
+.Text-about-me{
+    width: 40%;
+    padding-top: 150px;
+
+}
+.Text-about-me h2{
+    padding-bottom: 20px;
+}
+.imgae-about-me{
+    width: 50%;
+  
     
 }
+.imgae-about-me img{
+    height: 600px;
+    margin-left: 100px;
+}
+.Text-about-me hr{
+
+    border: 2px solid rgb(255,202,5);
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
