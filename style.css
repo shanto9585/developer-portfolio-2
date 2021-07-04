@@ -90,8 +90,8 @@ ul li{
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    box-shadow: 40px 0px 40px rgb(26, 26, 41);
-    margin-top: 80px;
+    box-shadow: -40px 30px 50px rgb(26, 26, 41);
+
 }
 .Text-about-me{
     width: 40%;
