@@ -10,8 +10,8 @@
     background-image: url(images/Cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
     width: 100%;
+    height: 800px;
     box-shadow: -40px 30px 50px rgb(26, 26, 41);
 }
 
@@ -42,7 +42,7 @@
 .menu{
     padding-top: 20px;
     display: flex;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .menu  a{
     text-decoration: none;
